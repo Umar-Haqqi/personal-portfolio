@@ -76,12 +76,13 @@ html {
     cursor: pointer;
 }
 
-#container{
+#container {
     width: 100%;
     min-height: 100vh;
     /* position: relative; */
     overflow-x: hidden;
 }
+
 .main {
     width: 100%;
     min-height: 100vh;
@@ -252,6 +253,8 @@ html {
     color: var(--clr-grey);
     margin-top: 1.0rem;
     margin-bottom: 3.0rem;
+    /* background: red; */
+    width: 65%;
 }
 
 .hero p span {
@@ -414,8 +417,7 @@ html {
 
 .elem h1:hover {
     color: var(--clr-grey);
-    font-size: 7.4rem;
-    transform: translateX(5px);
+    transform: translateX(2px);
 }
 
 .elem img {
@@ -636,7 +638,7 @@ footer p {
     }
 
     .elem h1 {
-        font-size: 6.0rem;
+        font-size: 5.0rem;
     }
 
     .contact h1 {
@@ -648,15 +650,22 @@ footer p {
         text-align: left;
     }
 
+    .hero p {
+        margin-top: 1.5rem;
+        margin-bottom: 4.0rem;
+        width: 85%;
+    }
+
     .contact p {
         width: 100%;
         text-align: left;
         font-size: 1.8rem;
         margin-bottom: 6.0rem;
     }
+
     .contact {
         height: 80vh;
-        
+
     }
 
 }
@@ -674,15 +683,24 @@ footer p {
         font-size: 5.0rem;
     }
 
+    .hero p {
+        margin-top: 2.0rem;
+        margin-bottom: 4.0rem;
+        width: 90%;
+    }
+
 }
+
 @media (max-width:330px) {
     html {
         font-size: 40%;
     }
-    .hero .name{
+
+    .hero .name {
         font-size: 5.0rem;
     }
-    .hero p{
+
+    .hero p {
         margin-top: 3.0rem;
         margin-bottom: 5.0rem;
     }
@@ -693,6 +711,12 @@ footer p {
 
     .projects .elem h1 {
         font-size: 5.0rem;
+    }
+
+    .hero p {
+        margin-top: 1.5rem;
+        margin-bottom: 8.0rem;
+        width: 95%;
     }
 
 }

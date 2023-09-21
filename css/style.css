@@ -654,6 +654,10 @@ footer p {
         font-size: 1.8rem;
         margin-bottom: 6.0rem;
     }
+    .contact {
+        height: 80vh;
+        
+    }
 
 }
 
@@ -664,6 +668,27 @@ footer p {
 
     .toggle-btn {
         font-size: 2.2rem;
+    }
+
+    .projects .elem h1 {
+        font-size: 5.0rem;
+    }
+
+}
+@media (max-width:330px) {
+    html {
+        font-size: 40%;
+    }
+    .hero .name{
+        font-size: 5.0rem;
+    }
+    .hero p{
+        margin-top: 3.0rem;
+        margin-bottom: 5.0rem;
+    }
+
+    .toggle-btn {
+        font-size: 2.4rem;
     }
 
     .projects .elem h1 {
